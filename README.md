@@ -14,7 +14,7 @@ This code provides functions to:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/residue-composition.git
+   git clone https://github.com/ade-wagimon/residue-composition.git
    ```
 2. Install required libraries (assumes pip is installed):
    ```bash
@@ -34,7 +34,7 @@ This code provides functions to:
    ```python
    sequence = "PLEASEREPRESENTTHEINFORMATION"
 
-   residue_composition, amino_acid_counts, hydrophobic_count, hydrophobic_freq, hydrophilic_count, hydrophilic_freq = calculate_residue_composition(sequence)
+   residue_composition, amino_acid_counts, hydrophobic_count, hydrophobic_freq, hydrophilic_count, hydrophilic_freq, neutral_count, neutral_freq = calculate_residue_composition(sequence)
 
    # Access and process the results as needed
    ```
